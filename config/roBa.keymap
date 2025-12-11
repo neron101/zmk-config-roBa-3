@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&lt 5 Q   &kp W           &kp E             &kp R         &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A     &kp S           &kp D             &kp F         &kp G        &lt 5 CAPS      &kp LEFT_BRACKET     &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z     &kp X           &kp C             &kp V         &kp B        &mkp MB2        &lt 6 RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &kp RS(SLASH)
-&kp CAPS  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &lt 2 SPACE  &mkp MB1        &kp BACKSPACE        &lt 1 ENTER                             &kp EQUAL
+&lt 5 Q   &kp W           &kp E             &kp R         &kp T                                             &kp Y          &kp U  &lt 5 I    &kp O    &kp P
+&kp A     &kp S           &kp D             &kp F         &kp G        &lt 5 CAPS      &kp LEFT_BRACKET     &kp H          &kp J  &kp K      &kp L    &kp MINUS
+&kp Z     &kp X           &kp C             &kp V         &kp B        &mkp MB2        &lt 6 RIGHT_BRACKET  &kp N          &kp M  &kp COMMA  &kp DOT  &kp RS(SLASH)
+&kp CAPS  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &lt 2 SPACE  &mkp MB1        &lt 4 KP_ENTER       &kp BACKSPACE                             &kp EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp N5                              &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0
-&kp LEFT        &kp UP_ARROW  &kp RIGHT_ARROW  &trans        &kp LANGUAGE_1  &trans      &trans  &trans        &trans  &trans  &trans  &trans
-&kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans        &kp LANGUAGE_2  &trans      &trans  &trans        &trans  &trans  &trans  &trans
-&trans          &trans        &trans           &trans        &trans          &trans      &trans  &trans                                &trans
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp N5                              &kp NUMBER_6  &kp N7      &kp N8        &kp N9           &kp N0
+&kp LEFT        &kp UP_ARROW  &kp RIGHT_ARROW  &trans        &kp LANGUAGE_1  &trans      &trans  &kp HOME      &trans      &trans        &trans           &trans
+&kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans        &kp LANGUAGE_2  &trans      &trans  &kp END       &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp SLASH
+&trans          &trans        &trans           &trans        &trans          &trans      &trans  &trans                                                   &trans
             >;
         };
 
@@ -120,10 +120,10 @@
 
         MOUSE {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                      &kp RS(NUMBER_6)  &kp RS(N7)  &kp RS(N8)  &kp RS(N9)  &kp RS(RIGHT_PARENTHESIS)
-&kp LEFT          &kp UP_ARROW      &kp RIGHT         &trans            &trans      &trans      &trans  &trans            &mkp MB1    &mkp MB3    &mkp MB2    &trans
-&kp LEFT          &kp DOWN          &kp RIGHT_ARROW   &trans            &trans      &trans      &trans  &trans            &trans      &trans      &trans      &kp SLASH
-&trans            &trans            &trans            &trans            &trans      &trans      &trans  &trans                                                &trans
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                      &kp RS(NUMBER_6)  &kp RS(N7)  &kp RS(N8)         &kp RS(N9)       &kp RS(RIGHT_PARENTHESIS)
+&kp LEFT          &kp UP_ARROW      &kp RIGHT         &trans            &trans      &trans      &trans  &kp HOME          &mkp MB1    &mkp MB3           &mkp MB2         &trans
+&kp LEFT          &kp DOWN          &kp RIGHT_ARROW   &trans            &trans      &trans      &trans  &kp END           &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp SLASH
+&trans            &trans            &trans            &trans            &trans      &trans      &trans  &trans                                                            &trans
             >;
         };
 
