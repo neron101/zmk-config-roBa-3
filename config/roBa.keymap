@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&lt 5 Q   &kp W           &kp E             &kp R         &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &lt 6 P
+&lt 5 Q   &kp W           &kp E             &kp R         &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A     &kp S           &kp D             &kp F         &kp G        &lt 5 CAPS      &kp LEFT_BRACKET     &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &kp Z     &kp X           &kp C             &kp V         &kp B        &mkp MB2        &lt 6 RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &kp RS(SLASH)
-&kp CAPS  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &lt 2 SPACE  &mkp MB1        &kp BACKSPACE        &lt 1 ENTER                             &kp DEL
+&kp CAPS  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &lt 2 SPACE  &mkp MB1        &kp BACKSPACE        &lt 1 ENTER                             &kp EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
