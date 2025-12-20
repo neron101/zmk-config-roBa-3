@@ -40,28 +40,13 @@
         };
 
         muhennkann {
-            bindings = <&to_layer_0 LS(LEFT_WIN)>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <11 10>;
         };
 
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-
-        l1 {
-            bindings = <&kp LANGUAGE_1>;
-            key-positions = <0 1>;
-        };
-
-        l2 {
-            bindings = <&kp LANGUAGE_2>;
-            key-positions = <2 3>;
         };
 
         sc {
