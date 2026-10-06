@@ -1,4 +1,7 @@
 #include "roBa.dtsi"
+#include <input/processors.dtsi>
+#include <input/processors/runtime-input-processor.dtsi>
+#include <behaviors/battery_history_request.dtsi>
 
 &default_transform {
     col-offset = <6>;
@@ -19,6 +22,7 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
+        input-processors = <&mouse_runtime_input_processor>; // DYA Studioから速度変更可
     };
 };
 
