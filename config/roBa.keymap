@@ -87,7 +87,7 @@
             bindings = <
 &kp Q      &kp W   &kp E     &kp R      &kp T                         &kp Y     &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S   &kp D     &kp F      &kp G        &mkp RCLK        &kp LBKT  &kp H  &kp J      &kp K    &kp L         &kp MINUS
-&kp LSHFT  &kp Z   &kp X     &kp C      &kp V        &kp B            &kp N     &kp M  &kp COMMA  &kp DOT  &kp RS(FSLH)  &kp EQUAL
+&kp LSHFT  &kp Z   &kp X     &kp C      &kp V        &kp B            &kp N     &kp M  &kp COMMA  &kp DOT  &kp RS(FSLH)  &lt MOUSE FSLH
 &kp LCTRL  &kp TAB &kp CAPS  &kp LGUI   &lt RAISE SPACE  &mkp LCLK    &lt LOWER RET &kp BSPC                             &lt SCROLL RBKT
             >;
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -96,10 +96,10 @@
         raise_layer {
             display-name = "Raise";
             bindings = <
-&kp F1    &kp F2    &kp F3     &kp F4   &kp F5                      &kp F6    &kp F7    &kp F8    &kp F9        &kp F10
-&kp F11   &kp F12   &none      &none    &none    &trans             &none     &kp LEFT  &kp DOWN  &kp UP        &kp RIGHT     &kp C_MUTE
-&trans    &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT &none             &kp HOME  &kp PG_DN &kp PG_UP &kp END       &kp C_VOL_DN  &kp C_VOL_UP
-&trans    &trans    &trans     &trans   &trans   &trans             &trans    &kp DEL                                        &trans
+&kp N1     &kp N2     &kp N3     &kp N4   &kp N5                        &kp N6   &kp N7   &kp N8   &kp N9   &kp N0
+&kp LEFT   &kp UP     &kp RIGHT  &trans   &kp LANG1  &kp LALT           &trans   &trans   &trans   &trans   &trans   &trans
+&trans     &kp LEFT   &kp DOWN   &kp RIGHT &trans    &kp LANG2          &trans   &trans   &trans   &trans   &trans   &trans
+&trans     &trans     &trans     &trans   &trans     &trans             &trans   &trans                               &trans
             >;
             sensor-bindings = <&rsr_trans &rsr_trans>;
         };
@@ -107,10 +107,10 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-&kp N1      &kp N2      &kp N3      &kp N4      &kp N5                           &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &trans               &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp GRAVE
-&trans      &kp LANG2   &kp LANG1   &none       &none       &none                &kp BSLH    &kp SQT     &kp SEMI    &kp LS(SQT) &kp LS(SEMI) &kp LS(GRAVE)
-&trans      &trans      &trans      &trans      &trans      &trans               &trans      &kp DEL                                          &studio_unlock
+&kp LS(N1)    &kp LS(N2)  &kp LS(N3)     &kp LS(N4)  &kp LS(N5)                     &kp RS(N6)  &kp RS(N7)  &kp RS(N8)  &kp RS(N9)  &kp RS(N0)
+&kp LS(LEFT)  &kp LS(UP)  &kp LS(RIGHT)  &trans      &kp LANG1   &kp LALT           &trans      &trans      &trans      &trans      &trans      &trans
+&trans        &kp LEFT    &kp DOWN       &kp RIGHT   &trans      &kp LANG2          &trans      &trans      &trans      &trans      &trans      &trans
+&trans        &trans      &trans         &trans      &trans      &trans             &trans      &trans                                          &studio_unlock
             >;
             sensor-bindings = <&rsr_trans &rsr_trans>;
         };
